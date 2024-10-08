@@ -15,7 +15,7 @@
     text-decoration: none;
     color: white;
     font-size: 2em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:"Garamond", Cochin, Georgia, Times, 'Times New Roman', serif;/*font family for the labels*/
 }
 .button a:hover{
     background-color: #740000;
