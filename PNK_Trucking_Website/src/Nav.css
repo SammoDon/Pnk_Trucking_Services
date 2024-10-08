@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .logo{
+    height: 12vh; /*size of the logo image*/
+    vertical-align: middle;
+    padding-left: 8vw; /* the distance between the logo and the end of the page*/
+
+  }
+  .logo_label{
+    margin-right: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large; /*the size of the font*/
+
+  }
+  .logo_label_2{
+    margin-right: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;/*font family for the labels*/
+    font-size: large; /*the size of the font*/
+    font-weight: 100; /*thickness of the font*/
+  }
+  .nav {
+    background-color: rgba(0, 0, 0, 0.353); /* semi-transparent background for the navbar */
+    display: flex; /*To enable the flex alignment*/
+    justify-content: flex-end;/*align the href items to the right in the navbar*/
+    align-items: center;
+    padding: 1vh 2vw; /* Padding for the nav bar*/
+    position: fixed; /*keeping the navbar at the top of the page*/
+    width: 100%; /*keeping the full width of the navigation bar*/
+    color: white; /*Changes the colour of the text in navigation bar to white*/
+  }
+  
+  nav li {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0 1vw;
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text color for links */
+    margin-right: 2vw; /* Space between the links */
+    padding: 2vh 1.5vw; /* Padding around the links */
+    border-radius: 5px; /* Rounded corners for the links */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  nav a:hover, nav a.active {
+    padding: 2vh 1.5vw; 
+    background-color: rgba(0, 0, 0, 0.603); /* black transparent colour for the on hover element*/
+  }

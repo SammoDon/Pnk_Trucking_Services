@@ -1,0 +1,22 @@
+.button{
+    background-color: #a70000;
+    padding: 2vh 0vw;
+
+    border: none;
+    cursor: pointer;
+    margin-top: 5vh;
+    margin-left: 42.8vw;
+
+}
+.button a{
+    padding: 2vh 2vw; /* Padding around the links */
+
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button a:hover{
+    background-color: #740000;
+}
