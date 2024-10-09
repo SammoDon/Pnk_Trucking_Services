@@ -1,4 +1,5 @@
 import './Service_Cards.css'
+import PropTypes from 'prop-types'
 
 
 function Service_Cards(props){
@@ -22,5 +23,13 @@ function Service_Cards(props){
             </div>
         </div>
     );
+}
+Service_Cards.propTypes ={
+    card_title_1: PropTypes.string,
+    card_title_2: PropTypes.string,
+    card_title_3: PropTypes.string,
+    card_descrip_1: PropTypes.string,
+    card_descrip_2: PropTypes.string,
+    card_descrip_3: PropTypes.string,
 }
 export default Service_Cards
