@@ -1,0 +1,23 @@
+.promotion{
+    background-color: brown;
+    color: white;
+    font-family:"Garamond", Cochin, Georgia, Times, 'Times New Roman', serif;/*font family for the labels*/
+    
+}
+.p-video{
+    width: 51vw;
+    height: calc(51vw * 9 / 16);
+}
+.p-video, .p-message{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.p-message{
+    align-items: right;
+    padding-left: 8rem;
+    font-size: x-large;
+}
+.p-message h3{
+    font-size: xx-large;
+}

@@ -1,0 +1,61 @@
+  .logo{
+    height: 12vh; /*size of the logo image*/
+    vertical-align: middle;
+    padding-left: 8vw; /* the distance between the logo and the end of the page*/
+
+  }
+  .logo_label{
+    margin-right: auto;
+    font-size: x-large; /*the size of the font*/
+
+  }
+  .logo_label_2{
+    margin-right: auto;
+    font-size: large; /*the size of the font*/
+    font-weight: 100; /*thickness of the font*/
+  }
+  .nav {
+    background-color: rgba(0, 0, 0, 0.353); /* semi-transparent background for the navbar */
+    display: flex; /*To enable the flex alignment*/
+    justify-content: space-between;/*align the href items to the right in the navbar*/
+    align-items: center;
+    padding: 0rem 1rem; /* Padding for the nav bar*/
+    position: fixed; /*keeping the navbar at the top of the page*/
+    width: 100%; /*keeping the full width of the navigation bar*/
+    color: white; /*Changes the colour of the text in navigation bar to white*/
+    font-family:"Garamond", Cochin, Georgia, Times, 'Times New Roman', serif;/*font family for the labels*/
+
+  }
+  
+  nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin-right: 6rem;
+    display: flex;
+  
+    gap: 2rem;
+  }
+  nav li{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* White text color for links */
+    transition: background-color 0.9s; /* Smooth transition for background color */
+    padding: .25rem;
+    font-size: larger;
+    align-items: center;
+
+  }
+  nav li.active {
+    background-color: rgba(0, 0, 0, 0.603); /* black transparent colour for the on hover element*/
+    border-radius: 5px; /* Rounded corners for the links */
+  }
+  nav li:hover{
+    background-color: rgba(0, 0, 0, 0.824); /* black transparent colour for the on hover element*/
+    border-radius: 5px; /* Rounded corners for the links */
+  }
+ 
