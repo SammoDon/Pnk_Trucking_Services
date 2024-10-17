@@ -15,8 +15,8 @@ function Service_Cards(props){
     backgroundImage: isHovered1 ? `url(${props.BgImg1})` : 'none',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    transition: 'background-image 0.3s ease',
-    transition: 'color 0.3s ease',
+    transition: 'background-image 0.3s ease, color 0.3s ease',
+
   };
 
   const backgroundStyle2 = {
@@ -24,8 +24,8 @@ function Service_Cards(props){
     backgroundImage: isHovered2 ? `url(${props.BgImg2})` : 'none',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    transition: 'background-image 0.3s ease',
-    transition: 'color 0.3s ease',
+    transition: 'background-image 0.3s ease, color 0.3s ease',
+    
   };
 
   const backgroundStyle3 = {
@@ -33,8 +33,8 @@ function Service_Cards(props){
     backgroundImage: isHovered3 ? `url(${props.BgImg3})` : 'none',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    transition: 'background-image 0.3s ease',
-    transition: 'color 0.3s ease',
+    transition: 'background-image 0.3s ease, color 0.3s ease',
+    
   };
     return(
         <div  className="service_cards">
