@@ -6,7 +6,7 @@
 }
 .p-video{
     width: 51vw;
-    height: calc(51vw * 9 / 16);
+    height: calc(51vw * 4 / 5);
 }
 .p-video, .p-message{
     display: inline-block;
@@ -15,8 +15,8 @@
 
 .p-message{
     align-items: right;
-    padding-left: 8rem;
-    font-size: x-large;
+    padding-left: 1rem;
+    font-size: xx-large;
 }
 .p-message h3{
     font-size: xx-large;

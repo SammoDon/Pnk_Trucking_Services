@@ -1,0 +1,61 @@
+/* Ensure styles only affect elements within the About Us page */
+.about-us {
+    font-family: 'Garamond', serif;
+    padding-top: 21vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.5rem; /* Increase font size by 50% */
+  }
+  
+  .about-us h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .about-us h2 {
+    margin-top: 30px;
+    font-size: 2rem;
+  }
+  
+  .about-us h3 {
+    font-size: 1.75rem;
+    margin-top: 20px;
+  }
+  
+  .about-us .faq-section {
+    margin-top: 40px;
+  }
+  
+  .about-us .faq-item {
+    margin-bottom: 30px;
+  }
+  
+  .about-us .faq-item h3 {
+    font-weight: bold;
+  }
+  
+  .about-us .faq-item p {
+    margin-left: 20px;
+  }
+  
+  .about-us ul {
+    margin-left: 40px;
+  }
+  
+  .about-us ul li {
+    margin-bottom: 5px;
+  }
+  
+  .about-us .still-have-questions {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .about-us .still-have-questions ul {
+    padding-left: 20px;
+  }
+  
+  .about-us .still-have-questions li {
+    margin-bottom: 10px;
+  }
+  

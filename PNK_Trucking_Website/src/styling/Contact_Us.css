@@ -1,0 +1,78 @@
+.contact-us {
+    font-family: 'Garamond', serif;
+    font-size: 1.5rem; /* Increase font size by 50% */
+    padding-top: 21vh; /* Apply padding-top from the "Contact Us" section onward */
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .contact-us h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 0; /* Ensure no margin at top */
+  }
+  
+  .contact-us h2, h3 {
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    margin-bottom: 20px;
+  }
+  
+  .contact-item p {
+    margin: 5px 0;
+  }
+  
+  .request-quote {
+    margin-top: 30px;
+  }
+  
+  .request-quote-btn {
+    background-color: #a52a2a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .request-quote-btn:hover {
+    background-color: #8b1f1f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .social-media ul {
+    padding-left: 20px;
+  }
+  
+  .social-media li {
+    margin-bottom: 5px;
+  }
+  
+  .policies {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .download-btn {
+    background-color: #a52a2a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px;
+  }
+  
+  .download-btn:hover {
+    background-color: #8b1f1f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
