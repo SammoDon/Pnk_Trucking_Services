@@ -1,51 +1,96 @@
-.footer-message{
-    background-color: black;
-    color: white;
-    margin: 0;
-    padding-top: 2rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
-    padding-bottom: 1rem;
-    font-family:"Garamond", Cochin, Georgia, Times, 'Times New Roman', serif;/*font family for the labels*/
-    font-size: large;
-
-    display: flex;
-    justify-content: space-between; /* Ensures items are aligned left and right */
-    align-items: flex-start; /* Aligns items at the top */
-    
+.footer-message {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding-top: 2rem;
+  padding-left: 4rem;  /* Adjusted padding for a more balanced look */
+  padding-right: 4rem; /* Adjusted padding for a more balanced look */
+  padding-bottom: 2rem;  /* Added more bottom padding for consistency */
+  font-family: "Garamond", Cochin, Georgia, Times, 'Times New Roman', serif; /* Font family for the labels */
+  font-size: large;
+  display: flex;
+  justify-content: space-between; /* Ensures items are aligned left and right */
+  align-items: flex-start; /* Aligns items at the top */
 }
-.message{
-    max-width: 30%;
-    padding: 1rem;
+
+.message {
+  max-width: 30%; /* Ensuring the message section doesn't get too wide */
+  padding: 1rem;
+  margin-right: 2rem;  /* Adding margin between message and contact section */
 }
-.logo-m{
-    height: 13vh; /*size of the logo image*/
-    padding: 0;
-    margin: 0;
 
-  }
-  .logo_label{
-    display: inline-block;
-    vertical-align: middle;
+.logo-m {
+  height: 13vh; /* Size of the logo image */
+  padding: 0;
+  margin: 0;
+}
 
-  }
-  .logo_label, .logo-m{
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .copyright{
-    color: rgb(97, 97, 97);
-    padding-left: 1rem;
-    margin-top: 1rem;
-    width: 100%;
-  }
-  .contact{
-    width: 30%; /* Adjust width as needed */
-    padding: 1rem;
-    text-align: left;
-    font-size: large;
-  }
-  .contact h5{
-    color: brown;
-    font-size: larger;
-  }
+.logo_label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo_label, .logo-m {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.copyright {
+  color: rgb(97, 97, 97);
+  padding-left: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.contact {
+  width: 30%; /* Adjust width as needed */
+  padding: 1rem;
+  text-align: left;
+  font-size: large;
+}
+
+.contact h5 {
+  color: brown;
+  font-size: larger;
+}
+
+.quick-links {
+  width: 30%; /* Same width as the contact section */
+  padding: 1rem;
+  text-align: left;
+  font-size: large;
+}
+
+.quick-links h5 {
+  color: brown;
+  font-size: larger;
+}
+
+.quick-links div {
+  margin-bottom: 1rem;
+}
+
+.quick-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Removed margin for consistent spacing */
+}
+
+.quick-links ul li {
+  margin: 8px 0; /* Increased margin for consistent vertical spacing between items */
+}
+
+.quick-links ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.quick-links ul li a:hover {
+  color: brown; /* Hover effect to match the color scheme */
+}
+
+/* Optional: If you want to add more space between footer sections */
+.footer-message > div {
+  margin-bottom: 2rem; /* Adds space between sections like message, contact, and quick-links */
+}

@@ -1,5 +1,6 @@
 {
   "name": "pnk-trucking-website",
+  "homepage": "https://sammodon.github.io/Pnk-Trucking/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,13 +8,19 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@react-google-maps/api": "^2.20.3",
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
-    "react-scroll": "^1.9.0"
+    "react-scroll": "^1.9.0",
+    "use-places-autocomplete": "^4.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

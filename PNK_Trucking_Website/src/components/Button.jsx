@@ -1,7 +1,7 @@
 import '../styling/Button.css'
-function Button(){
+import { Link} from 'react-router-dom';
+export default function Button(){
     return(
-        <button className="button"><a href="">Get a Quote</a></button>
+        <button className="button"><Link to="/Services">Get a Quote</Link></button>
     );
 }
-export default Button

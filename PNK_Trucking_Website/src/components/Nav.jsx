@@ -12,7 +12,7 @@ export default function Nav(){
                 <ul>
                 <CustomLink to="/">Home </CustomLink>
                 <CustomLink to="/Services">Services</CustomLink>
-                <CustomLink to="/Contact Us" >Contact Us</CustomLink>
+                <CustomLink to="/Contact" >Contact Us</CustomLink>
                 <CustomLink to="/About Us" >About Us</CustomLink>
                 </ul>
             </nav>

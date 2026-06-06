@@ -1,6 +1,7 @@
 import "../styling/Home.css"
 import BackgroundVideo from "../components/BackgroundVideo.jsx"
 import Nav from "../components/Nav.jsx"
+import Contact_Form from "../components/Contact_Form.jsx"
 import Content from "../components/Content.jsx"
 import Button from "../components/Button.jsx"
 import Service_Cards from "../components/Service_Cards.jsx"
@@ -18,6 +19,7 @@ import img3 from '../assets/backgroundimg3.jpg'
 import img4 from '../assets/backgroundimg4.jpg'
 import img5 from '../assets/backgroundimg5.jpg'
 import img6 from '../assets/backgroundimg6.jpg'
+
 function Home() {
     return(
       <>
@@ -50,8 +52,10 @@ function Home() {
         />  
         </div>
         <Promotion/>
+        <Contact_Form/>
         <Footer/>
-      </>
+        
+       </>
     );
 }
 export default Home

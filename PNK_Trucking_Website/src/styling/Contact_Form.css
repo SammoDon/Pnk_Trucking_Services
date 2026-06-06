@@ -1,0 +1,105 @@
+.inputbox input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+    background: transparent;
+  }
+  .inputbox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .inputbox {
+    position: relative;
+  }
+  .bg {
+    display: flex;
+    background-image: url('../assets/formbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgb(216, 216, 216);
+    height: 100vh;
+    align-items: center;
+    padding: 0 5%;
+    justify-content: space-between;
+  }
+  
+  .formbg h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+  }
+  .formbg {
+    width: 30%;
+    padding: 4rem;
+    background: rgba(0, 0, 0, .5); /* Removed transparent background */
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    display: block;
+    margin-left: 5%;
+  }
+  
+  .formimg {
+    width: 30vw;
+    height: 80vh;
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border: solid #000000;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .download-button {
+    background-color: #a52a2a; /* Updated to the requested color */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px; /* Uniform button size */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  .download-button:hover {
+    background-color: #8b2a2a; /* Darker shade when hovered */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .download-button:active {
+    background-color: #6e1e1e; /* Darker shade when clicked */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .filler-text {
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .filler-text p {
+    margin: 5px 0;
+  }
+  
