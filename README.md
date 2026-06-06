@@ -100,10 +100,10 @@ npm install
 npm run dev
 ```
 
-5. Open the local development URL shown in the terminal, usually:
+5. Open the local development URL shown in the terminal:
 
 ```text
-http://localhost:5173/
+http://localhost:[port]/
 ```
 
 ## Google Maps Setup
@@ -192,10 +192,6 @@ npm run deploy
 - Location: Montego Bay, Jamaica
 - Phone: 876-426-6197
 - Email: pnktrucking@yahoo.com
-
-## Author
-
-Created as a React/Vite website project for PNK Trucking Services.
 
 ## License
 
